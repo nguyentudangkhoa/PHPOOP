@@ -1,0 +1,48 @@
+h1{
+    color:red;
+    font-style:italic bold;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-color: #9999FF;
+    text-align: center;
+}
+label{
+    font-style:italic bold;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+.button{
+    border: 2px solid  #9999FF;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+    border-radius: 30px;
+    height: 40px;
+    font-size:15px;
+    background: linear-gradient(to right, #FF66FF 50%,  #FF3399 50%);
+    background-size: 200% 100%;
+    width: 100px;
+    background-position: right bottom;
+    transition: all .5s ease-out; 
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.button:hover{
+    background-position: left bottom;
+}
+.text{
+    border: 2px solid  #9999FF;
+    border-radius: 25px;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+    height: 30px;
+    font-size:15px;
+    outline:none;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-style:italic bold;
+    font-family:'Courier New', Courier, monospace;
+}
+.table{
+    text-align: center;
+}
